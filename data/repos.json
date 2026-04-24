@@ -1,7 +1,7 @@
 {
     "repositories": [
         {
-            "url": "https://api.github.com/repos/FlowiseAI/Flowise.git",
+            "url": "https://github.com/FlowiseAI/Flowise.git",
             "path": "data/repos/Flowise"
         },
         {
