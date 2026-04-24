@@ -1,212 +1,24 @@
 {
     "repositories": [
         {
-            "url": "https://github.com/charmbracelet/glow.git",
-            "path": "data/repos/glow"
+            "url": "https://api.github.com/repos/FlowiseAI/Flowise.git",
+            "path": "data/repos/Flowise"
         },
         {
-            "url": "https://github.com/charmbracelet/glamour.git",
-            "path": "data/repos/glamour"
+            "url": "https://github.com/FlowiseAI/FlowiseChatEmbed.git",
+            "path": "data/repos/FlowiseChatEmbed"
         },
         {
-            "url": "https://github.com/charmbracelet/wish.git",
-            "path": "data/repos/wish"
+            "url": "https://github.com/FlowiseAI/FlowiseDocs.git",
+            "path": "data/repos/FlowiseDocs"
         },
         {
-            "url": "https://github.com/charmbracelet/homebrew-tap.git",
-            "path": "data/repos/homebrew-tap"
+            "url": "https://github.com/FlowiseAI/FlowiseEmbedReact.git",
+            "path": "data/repos/FlowiseEmbedReact"
         },
         {
-            "url": "https://github.com/charmbracelet/bubbletea.git",
-            "path": "data/repos/bubbletea"
-        },
-        {
-            "url": "https://github.com/charmbracelet/bubbles.git",
-            "path": "data/repos/bubbles"
-        },
-        {
-            "url": "https://github.com/charmbracelet/charm.git",
-            "path": "data/repos/charm"
-        },
-        {
-            "url": "https://github.com/charmbracelet/lipgloss.git",
-            "path": "data/repos/lipgloss"
-        },
-        {
-            "url": "https://github.com/charmbracelet/skate.git",
-            "path": "data/repos/skate"
-        },
-        {
-            "url": "https://github.com/charmbracelet/harmonica.git",
-            "path": "data/repos/harmonica"
-        },
-        {
-            "url": "https://github.com/charmbracelet/soft-serve.git",
-            "path": "data/repos/soft-serve"
-        },
-        {
-            "url": "https://github.com/charmbracelet/keygen.git",
-            "path": "data/repos/keygen"
-        },
-        {
-            "url": "https://github.com/charmbracelet/soft-serve-action.git",
-            "path": "data/repos/soft-serve-action"
-        },
-        {
-            "url": "https://github.com/charmbracelet/confettysh.git",
-            "path": "data/repos/confettysh"
-        },
-        {
-            "url": "https://github.com/charmbracelet/promwish.git",
-            "path": "data/repos/promwish"
-        },
-        {
-            "url": "https://github.com/charmbracelet/wishlist.git",
-            "path": "data/repos/wishlist"
-        },
-        {
-            "url": "https://github.com/charmbracelet/meta.git",
-            "path": "data/repos/meta"
-        },
-        {
-            "url": "https://github.com/charmbracelet/melt.git",
-            "path": "data/repos/melt"
-        },
-        {
-            "url": "https://github.com/charmbracelet/runway.git",
-            "path": "data/repos/runway"
-        },
-        {
-            "url": "https://github.com/charmbracelet/gum.git",
-            "path": "data/repos/gum"
-        },
-        {
-            "url": "https://github.com/charmbracelet/bubbletea-app-template.git",
-            "path": "data/repos/bubbletea-app-template"
-        },
-        {
-            "url": "https://github.com/charmbracelet/vhs.git",
-            "path": "data/repos/vhs"
-        },
-        {
-            "url": "https://github.com/charmbracelet/inspo.git",
-            "path": "data/repos/inspo"
-        },
-        {
-            "url": "https://github.com/charmbracelet/tree-sitter-vhs.git",
-            "path": "data/repos/tree-sitter-vhs"
-        },
-        {
-            "url": "https://github.com/charmbracelet/vhs-action.git",
-            "path": "data/repos/vhs-action"
-        },
-        {
-            "url": "https://github.com/charmbracelet/scoop-bucket.git",
-            "path": "data/repos/scoop-bucket"
-        },
-        {
-            "url": "https://github.com/charmbracelet/ssh.git",
-            "path": "data/repos/ssh"
-        },
-        {
-            "url": "https://github.com/charmbracelet/log.git",
-            "path": "data/repos/log"
-        },
-        {
-            "url": "https://github.com/charmbracelet/git-lfs-transfer.git",
-            "path": "data/repos/git-lfs-transfer"
-        },
-        {
-            "url": "https://github.com/charmbracelet/wizard-tutorial.git",
-            "path": "data/repos/wizard-tutorial"
-        },
-        {
-            "url": "https://github.com/charmbracelet/mods.git",
-            "path": "data/repos/mods"
-        },
-        {
-            "url": "https://github.com/charmbracelet/x.git",
-            "path": "data/repos/x"
-        },
-        {
-            "url": "https://github.com/charmbracelet/console.git",
-            "path": "data/repos/console"
-        },
-        {
-            "url": "https://github.com/charmbracelet/hotdiva2000.git",
-            "path": "data/repos/hotdiva2000"
-        },
-        {
-            "url": "https://github.com/charmbracelet/pop.git",
-            "path": "data/repos/pop"
-        },
-        {
-            "url": "https://github.com/charmbracelet/nur.git",
-            "path": "data/repos/nur"
-        },
-        {
-            "url": "https://github.com/charmbracelet/huh.git",
-            "path": "data/repos/huh"
-        },
-        {
-            "url": "https://github.com/charmbracelet/freeze.git",
-            "path": "data/repos/freeze"
-        },
-        {
-            "url": "https://github.com/charmbracelet/markscribe.git",
-            "path": "data/repos/markscribe"
-        },
-        {
-            "url": "https://github.com/charmbracelet/readme-scribe.git",
-            "path": "data/repos/readme-scribe"
-        },
-        {
-            "url": "https://github.com/charmbracelet/colorprofile.git",
-            "path": "data/repos/colorprofile"
-        },
-        {
-            "url": "https://github.com/charmbracelet/sequin.git",
-            "path": "data/repos/sequin"
-        },
-        {
-            "url": "https://github.com/charmbracelet/fang.git",
-            "path": "data/repos/fang"
-        },
-        {
-            "url": "https://github.com/charmbracelet/sh.git",
-            "path": "data/repos/sh"
-        },
-        {
-            "url": "https://github.com/charmbracelet/ultraviolet.git",
-            "path": "data/repos/ultraviolet"
-        },
-        {
-            "url": "https://github.com/charmbracelet/crush.git",
-            "path": "data/repos/crush"
-        },
-        {
-            "url": "https://github.com/charmbracelet/catwalk.git",
-            "path": "data/repos/catwalk"
-        },
-        {
-            "url": "https://github.com/charmbracelet/fantasy.git",
-            "path": "data/repos/fantasy"
-        },
-        {
-            "url": "https://github.com/charmbracelet/go-genai.git",
-            "path": "data/repos/go-genai"
-        },
-        {
-            "url": "https://github.com/charmbracelet/anthropic-sdk-go.git",
-            "path": "data/repos/anthropic-sdk-go"
-        },
-        {
-            "url": "https://github.com/charmbracelet/xunicode.git",
-            "path": "data/repos/xunicode"
-        },
-        {
-            "url": "https://github.com/charmbracelet/openai-go.git",
-            "path": "data/repos/openai-go"
+            "url": "https://github.com/FlowiseAI/FlowisePy.git",
+            "path": "data/repos/FlowisePy"
         }
     ]
 }
