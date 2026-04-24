@@ -1,5 +1,5 @@
 {
-    "name": "Python Ciberseguridad Dev Container",
+    "name": "Ciberseguridad T4 Dev Container",
     "build": {
         "dockerfile": "Dockerfile",
         "context": "."
@@ -30,6 +30,6 @@
     "remoteUser": "vscode",
     "runArgs": [
         "--name",
-        "ciberseguridad-t3-dev-container"
+        "ciberseguridad-t4-dev-container"
     ]
 }
