@@ -1,5 +1,6 @@
 [submodule "data/repos/Flowise"]
 	path = data/repos/Flowise
+<<<<<<< HEAD
 [submodule "data/repos/FlowiseChatEmbed"]
 	path = data/repos/FlowiseChatEmbed
 [submodule "data/repos/FlowiseDocs"]
@@ -8,3 +9,18 @@
 	path = data/repos/FlowiseEmbedReact
 [submodule "data/repos/FlowisePy"]
 	path = data/repos/FlowisePy
+=======
+	url = https://github.com/FlowiseAI/Flowise.git
+[submodule "data/repos/FlowiseChatEmbed"]
+	path = data/repos/FlowiseChatEmbed
+	url = https://github.com/FlowiseAI/FlowiseChatEmbed.git
+[submodule "data/repos/FlowiseDocs"]
+	path = data/repos/FlowiseDocs
+	url = https://github.com/FlowiseAI/FlowiseDocs.git
+[submodule "data/repos/FlowiseEmbedReact"]
+	path = data/repos/FlowiseEmbedReact
+	url = https://github.com/FlowiseAI/FlowiseEmbedReact.git
+[submodule "data/repos/FlowisePy"]
+	path = data/repos/FlowisePy
+	url = https://github.com/FlowiseAI/FlowisePy.git
+>>>>>>> 158f55a1c3af59a31ca470681b665e6ead969ebd

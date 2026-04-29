@@ -43,3 +43,5 @@ RUN echo "CodeQL version:" && codeql version \
 # Set environment variables for uv
 ENV UV_LINK_MODE=copy
 ENV UV_COMPILE_BYTECODE=1
+
+RUN pip install checkov

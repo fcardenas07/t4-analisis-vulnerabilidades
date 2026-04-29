@@ -30,6 +30,28 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "path-to-regexp",
+      "current_version": "0.1.10",
+      "vuln_id": "GHSA-rhx6-c78j-4q9w",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "path-to-regexp contains a ReDoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "0.1.10",
+      "vuln_id": "GHSA-rhx6-c78j-4q9w",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "path-to-regexp contains a ReDoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "multer",
       "current_version": "1.4.5-lts.1",
       "vuln_id": "GHSA-g5hg-p3ph-g8qg",
@@ -69,28 +91,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "axios Requests Vulnerable To Possible SSRF and Credential Leakage via Absolute URL",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "path-to-regexp",
-      "current_version": "0.1.10",
-      "vuln_id": "GHSA-rhx6-c78j-4q9w",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "path-to-regexp contains a ReDoS",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "path-to-regexp",
-      "current_version": "0.1.10",
-      "vuln_id": "GHSA-rhx6-c78j-4q9w",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "path-to-regexp contains a ReDoS",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -283,28 +283,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "axios",
-      "current_version": "1.7.7",
-      "vuln_id": "GHSA-43fc-jf86-j433",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "axios",
-      "current_version": "1.7.7",
-      "vuln_id": "GHSA-43fc-jf86-j433",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "path-to-regexp",
       "current_version": "0.1.10",
       "vuln_id": "GHSA-37ch-88jc-xwx2",
@@ -322,6 +300,28 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.7.7",
+      "vuln_id": "GHSA-43fc-jf86-j433",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.7.7",
+      "vuln_id": "GHSA-43fc-jf86-j433",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -393,23 +393,45 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "axios",
-      "current_version": "1.7.7",
-      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
     },
     {
-      "package_name": "axios",
-      "current_version": "1.7.7",
-      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -476,6 +498,50 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "seroval affected by Denial of Service via RegExp serialization",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.2",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.7.7",
+      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.7.7",
+      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -652,72 +718,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-crv5-9vww-q3g8",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-crv5-9vww-q3g8",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-v9jr-rg53-9pgp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.2",
-      "vuln_id": "GHSA-v9jr-rg53-9pgp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"

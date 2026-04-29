@@ -1,0 +1,27 @@
+{
+  "total_issues": 2,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 2
+  },
+  "issues": [
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/publish.yml",
+      "resource": "on(Publish flowise-embed + flowise-embed-react)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/publish.yml",
+      "resource": "on(Publish flowise-embed + flowise-embed-react)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}

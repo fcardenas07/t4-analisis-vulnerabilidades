@@ -1,10 +1,10 @@
 {
-  "total_vulnerabilities": 281,
+  "total_vulnerabilities": 285,
   "vulnerabilities_by_severity": {
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "low": 281
+    "low": 285
   },
   "vulnerabilities": [
     {
@@ -437,17 +437,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "node-forge",
-      "current_version": "1.3.1",
-      "vuln_id": "GHSA-554w-wpv2-vw27",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "node-forge has ASN.1 Unbounded Recursion",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "undici",
       "current_version": "6.23.0",
       "vuln_id": "GHSA-f269-vfmq-vjvj",
@@ -569,17 +558,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "validator",
-      "current_version": "13.12.0",
-      "vuln_id": "GHSA-vghf-hv5q-vc2g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Validator is Vulnerable to Incomplete Filtering of One or More Instances of Special Elements",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "seroval",
       "current_version": "1.3.2",
       "vuln_id": "GHSA-3rxj-6cgf-8cfw",
@@ -641,6 +619,28 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "protobufjs",
+      "current_version": "7.4.0",
+      "vuln_id": "GHSA-xq3m-2v4x-88gg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Arbitrary code execution in protobufjs",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "validator",
+      "current_version": "13.12.0",
+      "vuln_id": "GHSA-vghf-hv5q-vc2g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Validator is Vulnerable to Incomplete Filtering of One or More Instances of Special Elements",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -712,12 +712,12 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "node-forge",
-      "current_version": "1.3.1",
-      "vuln_id": "GHSA-5gfm-wpxj-wjgq",
+      "package_name": "langchain",
+      "current_version": "0.3.6",
+      "vuln_id": "GHSA-r399-636x-v7f6",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization",
+      "message": "LangChain serialization injection vulnerability enables secret extraction",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -756,23 +756,23 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "node-forge",
+      "current_version": "1.3.1",
+      "vuln_id": "GHSA-5gfm-wpxj-wjgq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "fast-xml-parser",
       "current_version": "5.2.5",
       "vuln_id": "GHSA-37qj-frw5-hhjh",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "fast-xml-parser has RangeError DoS Numeric Entities Bug",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "protobufjs",
-      "current_version": "7.4.0",
-      "vuln_id": "GHSA-xq3m-2v4x-88gg",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Arbitrary code execution in protobufjs",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -800,6 +800,28 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "sha.js",
+      "current_version": "2.4.11",
+      "vuln_id": "GHSA-95m3-7q98-8xr5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "sha.js is missing type checks leading to hash rewind and passing on crafted data",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "expr-eval",
+      "current_version": "2.0.2",
+      "vuln_id": "GHSA-8gw3-rxh4-v6jx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "expr-eval vulnerable to Prototype Pollution",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "express",
       "current_version": "4.18.3",
       "vuln_id": "GHSA-qw6h-vgh9-j6wx",
@@ -811,12 +833,23 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "sha.js",
-      "current_version": "2.4.11",
-      "vuln_id": "GHSA-95m3-7q98-8xr5",
+      "package_name": "showdown",
+      "current_version": "2.1.0",
+      "vuln_id": "GHSA-rmmh-p597-ppvv",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "sha.js is missing type checks leading to hash rewind and passing on crafted data",
+      "message": "Showdown vulnerable to Regular Expression Denial of Service (ReDoS) in link/anchor parsing",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "0.1.12",
+      "vuln_id": "GHSA-37ch-88jc-xwx2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -866,12 +899,12 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "langchain",
-      "current_version": "0.3.6",
-      "vuln_id": "GHSA-r399-636x-v7f6",
+      "package_name": "node-forge",
+      "current_version": "1.3.1",
+      "vuln_id": "GHSA-554w-wpv2-vw27",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "LangChain serialization injection vulnerability enables secret extraction",
+      "message": "node-forge has ASN.1 Unbounded Recursion",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -894,17 +927,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "path-to-regexp",
-      "current_version": "0.1.12",
-      "vuln_id": "GHSA-37ch-88jc-xwx2",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -949,6 +971,17 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "lodash vulnerable to Code Injection via `_.template` imports key names",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "node-forge",
+      "current_version": "1.3.1",
+      "vuln_id": "GHSA-65ch-62r8-g69g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "node-forge is vulnerable to ASN.1 OID Integer Truncation",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -1042,6 +1075,17 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "basic-ftp",
+      "current_version": "5.0.5",
+      "vuln_id": "GHSA-rp42-5vxx-qpwr",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "basic-ftp vulnerable to denial of service via unbounded memory consumption in Client.list()",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "katex",
       "current_version": "0.16.9",
       "vuln_id": "GHSA-3wc5-fcw2-2329",
@@ -1053,12 +1097,122 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "picomatch",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "3.0.1",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "typeorm",
       "current_version": "0.3.20",
       "vuln_id": "GHSA-q2pj-6v73-8rgj",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "TypeORM vulnerable to SQL injection via crafted request to repository.save or repository.update",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "validator",
+      "current_version": "13.12.0",
+      "vuln_id": "GHSA-9965-vmph-33xx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "validator.js has a URL validation bypass vulnerability in its isURL function",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "2.4.1",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.2.6",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -1130,61 +1284,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "picomatch",
-      "current_version": "2.3.1",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "3.0.1",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "4.0.3",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "expr-eval",
-      "current_version": "2.0.2",
-      "vuln_id": "GHSA-8gw3-rxh4-v6jx",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "expr-eval vulnerable to Prototype Pollution",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "node-forge",
-      "current_version": "1.3.1",
-      "vuln_id": "GHSA-65ch-62r8-g69g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "node-forge is vulnerable to ASN.1 OID Integer Truncation",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "tar-fs",
       "current_version": "3.1.0",
       "vuln_id": "GHSA-vj76-c3g6-qr5v",
@@ -1207,56 +1306,23 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "validator",
-      "current_version": "13.12.0",
-      "vuln_id": "GHSA-9965-vmph-33xx",
+      "package_name": "dompurify",
+      "current_version": "3.2.6",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "validator.js has a URL validation bypass vulnerability in its isURL function",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
     },
     {
-      "package_name": "yaml",
-      "current_version": "1.10.2",
-      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "yaml",
-      "current_version": "1.10.2",
-      "vuln_id": "GHSA-48c2-rrv3-qjmp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "yaml",
-      "current_version": "2.3.1",
-      "vuln_id": "GHSA-48c2-rrv3-qjmp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "yaml",
-      "current_version": "2.4.1",
-      "vuln_id": "GHSA-48c2-rrv3-qjmp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -1559,6 +1625,28 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "dompurify",
+      "current_version": "3.2.6",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "jsondiffpatch",
       "current_version": "0.6.0",
       "vuln_id": "GHSA-33vc-wfww-vjfv",
@@ -1587,6 +1675,17 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "LangChain Community: redirect chaining can lead to SSRF bypass via RecursiveUrlLoader",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "glob",
+      "current_version": "10.3.10",
+      "vuln_id": "GHSA-5j98-mcp5-4vw2",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -1691,6 +1790,50 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "fast-xml-parser",
+      "current_version": "4.2.5",
+      "vuln_id": "GHSA-jp2q-39xq-3w4g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "fast-xml-parser",
+      "current_version": "4.4.1",
+      "vuln_id": "GHSA-jp2q-39xq-3w4g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "fast-xml-parser",
+      "current_version": "5.2.5",
+      "vuln_id": "GHSA-jp2q-39xq-3w4g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "fast-xml-parser",
+      "current_version": "5.4.1",
+      "vuln_id": "GHSA-jp2q-39xq-3w4g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "dompurify",
       "current_version": "3.2.6",
       "vuln_id": "GHSA-v8jm-5vwx-cfxm",
@@ -1779,50 +1922,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "fast-xml-parser",
-      "current_version": "4.2.5",
-      "vuln_id": "GHSA-jp2q-39xq-3w4g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "fast-xml-parser",
-      "current_version": "4.4.1",
-      "vuln_id": "GHSA-jp2q-39xq-3w4g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "fast-xml-parser",
-      "current_version": "5.2.5",
-      "vuln_id": "GHSA-jp2q-39xq-3w4g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "fast-xml-parser",
-      "current_version": "5.4.1",
-      "vuln_id": "GHSA-jp2q-39xq-3w4g",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "qs",
       "current_version": "6.10.4",
       "vuln_id": "GHSA-w7fw-mjwx-w883",
@@ -1878,17 +1977,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "glob",
-      "current_version": "10.3.10",
-      "vuln_id": "GHSA-5j98-mcp5-4vw2",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "tar",
       "current_version": "6.2.0",
       "vuln_id": "GHSA-34x7-hfp2-rc4v",
@@ -1939,6 +2027,39 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "7.0.39",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.35",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.49",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -2087,12 +2208,89 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "langsmith",
+      "current_version": "0.2.8",
+      "vuln_id": "GHSA-rr7j-v2q5-chgv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith SDK: Streaming token events bypass output redaction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.3.34",
+      "vuln_id": "GHSA-rr7j-v2q5-chgv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith SDK: Streaming token events bypass output redaction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.4.12",
+      "vuln_id": "GHSA-rr7j-v2q5-chgv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith SDK: Streaming token events bypass output redaction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.5.7",
+      "vuln_id": "GHSA-rr7j-v2q5-chgv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith SDK: Streaming token events bypass output redaction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "undici",
       "current_version": "5.28.4",
       "vuln_id": "GHSA-cxrh-j4jr-qwg3",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "undici Denial of Service attack via bad certificate data",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "3.0.1",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -2137,39 +2335,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "2.3.1",
-      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "3.0.1",
-      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "4.0.3",
-      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -2714,17 +2879,6 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "basic-ftp",
-      "current_version": "5.0.5",
-      "vuln_id": "GHSA-rp42-5vxx-qpwr",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "basic-ftp vulnerable to denial of service via unbounded memory consumption in Client.list()",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "serialize-javascript",
       "current_version": "4.0.0",
       "vuln_id": "GHSA-5c6j-r48x-rmvq",
@@ -2782,43 +2936,10 @@
     {
       "package_name": "dompurify",
       "current_version": "3.2.6",
-      "vuln_id": "GHSA-crv5-9vww-q3g8",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.2.6",
-      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.2.6",
       "vuln_id": "GHSA-h8r8-wccr-v5f2",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.2.6",
-      "vuln_id": "GHSA-v9jr-rg53-9pgp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -2830,39 +2951,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-crv5-9vww-q3g8",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-v9jr-rg53-9pgp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -2951,50 +3039,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "Handlebars.js has a Prototype Method Access Control Gap via Missing __lookupSetter__ Blocklist Entry",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "langsmith",
-      "current_version": "0.2.8",
-      "vuln_id": "GHSA-rr7j-v2q5-chgv",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "LangSmith SDK: Streaming token events bypass output redaction",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "langsmith",
-      "current_version": "0.3.34",
-      "vuln_id": "GHSA-rr7j-v2q5-chgv",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "LangSmith SDK: Streaming token events bypass output redaction",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "langsmith",
-      "current_version": "0.4.12",
-      "vuln_id": "GHSA-rr7j-v2q5-chgv",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "LangSmith SDK: Streaming token events bypass output redaction",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "langsmith",
-      "current_version": "0.5.7",
-      "vuln_id": "GHSA-rr7j-v2q5-chgv",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "LangSmith SDK: Streaming token events bypass output redaction",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"

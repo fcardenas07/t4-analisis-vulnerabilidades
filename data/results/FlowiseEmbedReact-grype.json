@@ -1,10 +1,10 @@
 {
-  "total_vulnerabilities": 66,
+  "total_vulnerabilities": 67,
   "vulnerabilities_by_severity": {
     "critical": 0,
     "high": 0,
     "medium": 0,
-    "low": 66
+    "low": 67
   },
   "vulnerabilities": [
     {
@@ -162,23 +162,23 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "multer",
-      "current_version": "1.4.5-lts.2",
-      "vuln_id": "GHSA-g5hg-p3ph-g8qg",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Multer vulnerable to Denial of Service via unhandled exception",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "path-to-regexp",
       "current_version": "0.1.7",
       "vuln_id": "GHSA-rhx6-c78j-4q9w",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "path-to-regexp contains a ReDoS",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "multer",
+      "current_version": "1.4.5-lts.2",
+      "vuln_id": "GHSA-g5hg-p3ph-g8qg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Multer vulnerable to Denial of Service via unhandled exception",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -514,12 +514,23 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "axios",
-      "current_version": "1.13.6",
-      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
       "vuln_severity": "low",
       "fix_version": "N/A",
-      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -558,6 +569,28 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "dompurify",
+      "current_version": "3.3.3",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.6",
+      "vuln_id": "GHSA-3p68-rc4w-qgx5",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "qs",
       "current_version": "6.11.0",
       "vuln_id": "GHSA-w7fw-mjwx-w883",
@@ -575,6 +608,17 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "qs's arrayLimit bypass in comma parsing allows denial of service",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.30",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -602,23 +646,23 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "axios",
-      "current_version": "1.13.6",
-      "vuln_id": "GHSA-fvcv-3m26-pcqx",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
       "package_name": "picomatch",
       "current_version": "2.3.1",
       "vuln_id": "GHSA-c2c7-rcm5-vvqj",
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "axios",
+      "current_version": "1.13.6",
+      "vuln_id": "GHSA-fvcv-3m26-pcqx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"
@@ -674,39 +718,6 @@
       "vuln_severity": "low",
       "fix_version": "N/A",
       "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-crv5-9vww-q3g8",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "cwe": "N/A",
-      "cvss_score": 0,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "dompurify",
-      "current_version": "3.3.3",
-      "vuln_id": "GHSA-v9jr-rg53-9pgp",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
       "cwe": "N/A",
       "cvss_score": 0,
       "type": "vulnerability"

@@ -1,0 +1,67 @@
+{
+  "total_issues": 7,
+  "issues_by_severity": {
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0,
+    "UNKNOWN": 7
+  },
+  "issues": [
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/docker-image-dockerhub.yml",
+      "resource": "on(Docker Image CI - Docker Hub)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/docker-image-ecr.yml",
+      "resource": "on(Docker Image CI - AWS ECR)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/proprietary-path-guard.yml",
+      "resource": "on(Proprietary Path Guard)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV_GHA_7",
+      "check_name": "The build output cannot be affected by user parameters other than the build entry point and the top-level source location. GitHub Actions workflow_dispatch inputs MUST be empty. ",
+      "file": "/publish-agentflow.yml",
+      "resource": "on(Publish @flowiseai/agentflow)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/docker-image-dockerhub.yml",
+      "resource": "on(Docker Image CI - Docker Hub)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/publish-agentflow.yml",
+      "resource": "on(Publish @flowiseai/agentflow)",
+      "severity": null,
+      "guideline": null
+    },
+    {
+      "check_id": "CKV2_GHA_1",
+      "check_name": "Ensure top-level permissions are not set to write-all",
+      "file": "/test_docker_build.yml",
+      "resource": "on(Test Docker Build)",
+      "severity": null,
+      "guideline": null
+    }
+  ]
+}
